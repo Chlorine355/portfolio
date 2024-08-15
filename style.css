@@ -1,0 +1,58 @@
+body {
+  background-color: black;
+}
+
+code {
+  color:white;
+  font-family: Consolas;
+  font-size: 2.5rem;
+  text-shadow: #009aff 0 0 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: .2s;
+}
+
+a:hover {
+  color: #0bff00;
+  text-shadow: #0bff00 0 0 5px;
+}
+
+#joke {
+  transition: .2s;
+  cursor: pointer;
+}
+
+#joke:hover {
+  color: #0bff00;
+  text-shadow: #0bff00 0 0 5px;
+}
+
+#writehere {
+  color: yellow;
+  text-shadow: yellow 0 0 5px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.underscore {
+  color: white;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 100%
+  }
+  50% {
+    opacity: 0%
+  }
+  100% {
+    opacity: 100%
+  }
+}
