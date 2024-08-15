@@ -11,7 +11,16 @@ const jokes = [
   "Why do Java Programmers wear glasses? Because they can't C#.",
   "Why did the programmer quit his job? Because he didn't get arrays.",
   'A programmer had a problem. He thought to himself, “I know, I’ll solve it with threads!” has Now problems. two he',
-  "What does a programmer have during sex? An ||gasm."];
+  "What does a programmer have during sex? An ||gasm.",
+  "How many programmers does it take to screw in a lightbulb? None. We don't address hardware issues.",
+  "I watched so many programming tutorial videos in college, my inner monologue started developing an Indian accent.",
+  "How do you generate a random string? Put a first year Computer Science student in Vim and ask them to save and exit.",
+  "Java: Write once, run away.",
+  "What is Benoit B. Mandelbrot's middle name? Benoit B. Mandelbrot.",
+  "Hardware: The part of a computer that you can kick. Software: The part of a computer that you can only curse at.",
+  "To understand recursion you must first understand recursion.",
+  "Why don't jokes work in octal? Because 7 10 11.",
+];
 
 function typewrite() {
   document.getElementById("joke").removeEventListener("click", typewrite);

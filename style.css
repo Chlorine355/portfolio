@@ -22,7 +22,7 @@ a {
   transition: .2s;
 }
 
-a:hover {
+a:hover, #joke:hover  {
   color: #0bff00;
   text-shadow: #0bff00 0 0 5px;
 }
@@ -30,11 +30,6 @@ a:hover {
 #joke {
   transition: .2s;
   cursor: pointer;
-}
-
-#joke:hover {
-  color: #0bff00;
-  text-shadow: #0bff00 0 0 5px;
 }
 
 #writehere {
